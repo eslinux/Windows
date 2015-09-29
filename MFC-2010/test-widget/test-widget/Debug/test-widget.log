@@ -1,0 +1,59 @@
+﻿Build started 9/28/2015 8:02:34 PM.
+Project "C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\test-widget\test-widget.vcxproj" on node 2 (build target(s)).
+PrepareForBuild:
+  Creating directory "C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\".
+InitializeBuildStatus:
+  Creating "Debug\mfc2010-widget.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\mfc2010-widget.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\mfc2010-widget.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GraphClass.cpp gSoapToUI.cpp PayloadDlg.cpp PciDlg.cpp PCIeTransmitGraph.cpp SystemDlg.cpp "test-widget.cpp" "test-widgetDlg.cpp"
+  test-widgetDlg.cpp
+  test-widget.cpp
+  SystemDlg.cpp
+  PCIeTransmitGraph.cpp
+  PciDlg.cpp
+  PayloadDlg.cpp
+  gSoapToUI.cpp
+  GraphClass.cpp
+  Generating Code...
+ResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\test-widget.res" test-widget.rc 
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mfc2010-widget.exe.embed.manifest.res" Debug\mfc2010-widget_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\mfc2010-widget.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.lib" /MACHINE:X86 "Debug\test-widget.res"
+  "Debug\mfc2010-widget.exe.embed.manifest.res"
+  Debug\GraphClass.obj
+  Debug\gSoapToUI.obj
+  Debug\PayloadDlg.obj
+  Debug\PciDlg.obj
+  Debug\PCIeTransmitGraph.obj
+  Debug\stdafx.obj
+  Debug\SystemDlg.obj
+  "Debug\test-widget.obj"
+  "Debug\test-widgetDlg.obj"
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mfc2010-widget.exe.embed.manifest" /manifest "Debug\mfc2010-widget.exe.intermediate.manifest" "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mfc2010-widget.exe.embed.manifest.res" Debug\mfc2010-widget_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\mfc2010-widget.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.lib" /MACHINE:X86 "Debug\test-widget.res"
+  "Debug\mfc2010-widget.exe.embed.manifest.res"
+  Debug\GraphClass.obj
+  Debug\gSoapToUI.obj
+  Debug\PayloadDlg.obj
+  Debug\PciDlg.obj
+  Debug\PCIeTransmitGraph.obj
+  Debug\stdafx.obj
+  Debug\SystemDlg.obj
+  "Debug\test-widget.obj"
+  "Debug\test-widgetDlg.obj"
+  test-widget.vcxproj -> C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\Debug\mfc2010-widget.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\mfc2010-widget.unsuccessfulbuild".
+  Touching "Debug\mfc2010-widget.lastbuildstate".
+Done Building Project "C:\Users\thanh\Documents\Visual Studio 2010\Projects\test-widget\test-widget\test-widget.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.21
