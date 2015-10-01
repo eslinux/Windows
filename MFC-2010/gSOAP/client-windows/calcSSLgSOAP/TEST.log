@@ -1,0 +1,2998 @@
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(5612): free(036C6838)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(5612): free(0031C440)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(5612): free(0031C4D8)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(8753): free(006367E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(5612): free(00A6C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(5612): free(00A6C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\src\stdsoap2.cpp(5612): free(00A6C440)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+src\stdsoap2.cpp(8753): free(00A5C920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+src\stdsoap2.cpp(5612): free(002EDF40)
+src\stdsoap2.cpp(5612): free(002EDEE8)
+src\stdsoap2.cpp(5612): free(002EDE90)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+src\stdsoap2.cpp(8753): free(02FEC920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+src\stdsoap2.cpp(5612): free(0020DF40)
+src\stdsoap2.cpp(5612): free(0020DEE8)
+src\stdsoap2.cpp(5612): free(0020DE90)
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 00CBD2E8
+Instantiated location=00CBD348
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 00CBD388
+Instantiated location=00CBD3E8
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 02EED2E8
+Instantiated location=02EED348
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 02EED388
+Instantiated location=02EED3E8
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 00C6D2E8
+Instantiated location=00C6D348
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 00C6D388
+Instantiated location=00C6D3E8
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 0087D2E8
+Instantiated location=0087D348
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+calc++\stdsoap2.cpp(8180): malloc(20) = 0087D388
+Instantiated location=0087D3E8
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(030CC920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00501840 type=7: not found
+Lookup location=00501848 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 030CC920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00501840 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00501840 type=7 id=-1
+Lookup location=00501840 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00501848 type=7 id=-1
+Lookup location=00501848 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00B4C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00351940 type=7: not found
+Lookup location=00351948 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 00B4C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00351940 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00351940 type=7 id=-1
+Lookup location=00351940 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00351948 type=7 id=-1
+Lookup location=00351948 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(005AC920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=003F1880 type=7: not found
+Lookup location=003F1888 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 005AC920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=003F1880 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 003F1880 type=7 id=-1
+Lookup location=003F1880 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 003F1888 type=7 id=-1
+Lookup location=003F1888 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=003F1880 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 003F1880 type=7 id=-1
+Lookup location=003F1880 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 003F1888 type=7 id=-1
+Lookup location=003F1888 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(005AC920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 005AC920
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00D1C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=001B1980 type=7: not found
+Lookup location=001B1988 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 00D1C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=001B1980 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 001B1980 type=7 id=-1
+Lookup location=001B1980 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 001B1988 type=7 id=-1
+Lookup location=001B1988 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=001B1980 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 001B1980 type=7 id=-1
+Lookup location=001B1980 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 001B1988 type=7 id=-1
+Lookup location=001B1988 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00D1C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 00D1C920
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0309C920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(002EDF40)
+calc++\stdsoap2.cpp(5612): free(002EDEE8)
+calc++\stdsoap2.cpp(5612): free(002EDE90)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0228C920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(003ADF40)
+calc++\stdsoap2.cpp(5612): free(003ADEE8)
+calc++\stdsoap2.cpp(5612): free(003ADE90)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(024B67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0095C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0095C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0095C440)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(025367E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0075C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0075C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0075C440)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(034C67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0029C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0029C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0029C440)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00DFC920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(0036DF40)
+calc++\stdsoap2.cpp(5612): free(0036DEE8)
+calc++\stdsoap2.cpp(5612): free(0036DE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0301C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=002D1900 type=7: not found
+Lookup location=002D1908 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 0301C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002D1900 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002D1900 type=7 id=-1
+Lookup location=002D1900 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002D1908 type=7 id=-1
+Lookup location=002D1908 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002D1900 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002D1900 type=7 id=-1
+Lookup location=002D1900 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002D1908 type=7 id=-1
+Lookup location=002D1908 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0301C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 0301C920
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0300C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00221880 type=7: not found
+Lookup location=00221888 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 0300C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00221880 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00221880 type=7 id=-1
+Lookup location=00221880 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00221888 type=7 id=-1
+Lookup location=00221888 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00221880 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00221880 type=7 id=-1
+Lookup location=00221880 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00221888 type=7 id=-1
+Lookup location=00221888 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0300C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 0300C920
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(01F2C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=001F1900 type=7: not found
+Lookup location=001F1908 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 01F2C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=001F1900 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 001F1900 type=7 id=-1
+Lookup location=001F1900 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 001F1908 type=7 id=-1
+Lookup location=001F1908 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=001F1900 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 001F1900 type=7 id=-1
+Lookup location=001F1900 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 001F1908 type=7 id=-1
+Lookup location=001F1908 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(01F2C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 01F2C920
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(034667E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(005FC570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(005FC4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(005FC440)
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8180): malloc(20) = 03538F20
+Instantiated location=03537B68
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8180): malloc(20) = 03537BC8
+Instantiated location=03538FC0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8094): free(03537BC8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8094): free(03538F20)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(035367E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(008FC570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(008FC4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(008FC440)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(008A67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(00E2C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(00E2C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(00E2C440)
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8180): malloc(20) = 028F8F20
+Instantiated location=028F7B68
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8180): malloc(20) = 028F7BC8
+Instantiated location=028F8FC0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8094): free(028F7BC8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8094): free(028F8F20)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028F67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0065C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0065C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0065C440)
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8180): malloc(20) = 036C8F20
+Instantiated location=036C7B68
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8180): malloc(20) = 036C7BC8
+Instantiated location=036C8FC0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8094): free(036C7BC8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8094): free(036C8F20)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(036C67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0002C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0002C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0002C440)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00D767E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(004FC570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(004FC4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(004FC440)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00AB67E8)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=003313B0 type=7: not found
+Lookup location=003313B8 type=7: not found
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 00AB67E8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=003313B0 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 003313B0 type=7 id=-1
+Lookup location=003313B0 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 003313B8 type=7 id=-1
+Lookup location=003313B8 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=352 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=352/fd=1
+Free namespace stack
+Begin send phase (socket=352 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=003313B0 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 003313B0 type=7 id=-1
+Lookup location=003313B0 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 003313B8 type=7 id=-1
+Lookup location=003313B8 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=352/fd=1
+End of send phase
+Initializing for input from socket=352/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00AB67E8)
+Free pointer hashtable
+Free ID hashtable
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 00AB67E8
+Free ID hashtable
+Read 583 bytes from socket=352/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(36) = 00AB9B68
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 00ABCFE0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(10875): malloc(256) = 00ABD098
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00ABD228
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 00ABD3B8
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 00ABD460
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00ABD518
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 00ABD6A8
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 00ABD750
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00ABD800
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 00ABD990
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 00ABDA38
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00ABDAE8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 00ABDC78
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(32) = 00ABDD20
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00ABDDD0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(22) = 00ABDF60
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(15951): malloc(42) = 00ABE008
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(46) = 00ABE0C0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00ABE180
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(16) = 00ABE310
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(20) = 00ABE3B0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00ABDF60)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00ABDC78)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00ABD990)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00ABD6A8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00ABD3B8)
+Shutdown socket=352 how=1
+Shutdown socket=352 how=2
+Close socket=352
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00ABD228)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00ABCFE0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00ABD518)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00ABD460)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00ABD800)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00ABD750)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00ABDAE8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00ABDA38)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00ABDDD0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00ABDD20)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00ABE180)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00ABE0C0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8740): free(00ABD098)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8749): free(00ABE008)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00AB67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(00ABE3B0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(00ABE310)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(00AB9B68)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0003C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0003C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0003C440)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028767E8)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=004419FC type=7: not found
+Lookup location=00441A04 type=7: not found
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 028767E8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=004419FC type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 004419FC type=7 id=-1
+Lookup location=004419FC type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00441A04 type=7 id=-1
+Lookup location=00441A04 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=352 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=352/fd=1
+Free namespace stack
+Begin send phase (socket=352 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=004419FC type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 004419FC type=7 id=-1
+Lookup location=004419FC type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00441A04 type=7 id=-1
+Lookup location=00441A04 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=352/fd=1
+End of send phase
+Initializing for input from socket=352/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028767E8)
+Free pointer hashtable
+Free ID hashtable
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 028767E8
+Free ID hashtable
+Read 583 bytes from socket=352/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(36) = 02879B68
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 0287CFE0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(10875): malloc(256) = 0287D098
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0287D228
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 0287D3B8
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 0287D460
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0287D518
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 0287D6A8
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 0287D750
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0287D800
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 0287D990
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 0287DA38
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0287DAE8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 0287DC78
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(32) = 0287DD20
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0287DDD0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(22) = 0287DF60
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(15951): malloc(42) = 0287E008
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(46) = 0287E0C0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0287E180
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(16) = 0287E310
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(20) = 0287E3B0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0287DF60)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0287DC78)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0287D990)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0287D6A8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0287D3B8)
+Shutdown socket=352 how=1
+Shutdown socket=352 how=2
+Close socket=352
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0287D228)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0287CFE0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0287D518)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0287D460)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0287D800)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0287D750)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0287DAE8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0287DA38)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0287DDD0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0287DD20)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0287E180)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0287E0C0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8740): free(0287D098)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8749): free(0287E008)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028767E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(0287E3B0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(0287E310)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(02879B68)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(005CC570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(005CC4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(005CC440)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0220C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00501BC0 type=7: not found
+Lookup location=00501BC8 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 0220C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00501BC0 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00501BC0 type=7 id=-1
+Lookup location=00501BC0 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00501BC8 type=7 id=-1
+Lookup location=00501BC8 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00501BC0 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00501BC0 type=7 id=-1
+Lookup location=00501BC0 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00501BC8 type=7 id=-1
+Lookup location=00501BC8 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0220C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 0220C920
+Free ID hashtable
+Read 583 bytes from socket=344/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 0222BAB8
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 0222BAF8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 02211310
+calc++\stdsoap2.cpp(11131): malloc(256) = 02211458
+calc++\stdsoap2.cpp(2833): malloc(28) = 022115A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 02211608
+calc++\stdsoap2.cpp(11131): malloc(256) = 02211678
+calc++\stdsoap2.cpp(2833): malloc(28) = 022117C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 02211828
+calc++\stdsoap2.cpp(11131): malloc(256) = 02211898
+calc++\stdsoap2.cpp(2833): malloc(23) = 022119E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 02211A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 02211AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 02211BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 02211C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 02211CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 02211E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 02211E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 02211EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 02211F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 0220F540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 022120D0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(02211E08)
+calc++\stdsoap2.cpp(8778): free(02211BF8)
+calc++\stdsoap2.cpp(8778): free(022119E0)
+calc++\stdsoap2.cpp(8778): free(022117C0)
+calc++\stdsoap2.cpp(8778): free(022115A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(02211458)
+calc++\stdsoap2.cpp(8735): free(0222BAF8)
+calc++\stdsoap2.cpp(8734): free(02211678)
+calc++\stdsoap2.cpp(8735): free(02211608)
+calc++\stdsoap2.cpp(8734): free(02211898)
+calc++\stdsoap2.cpp(8735): free(02211828)
+calc++\stdsoap2.cpp(8734): free(02211AB0)
+calc++\stdsoap2.cpp(8735): free(02211A40)
+calc++\stdsoap2.cpp(8734): free(02211CC0)
+calc++\stdsoap2.cpp(8735): free(02211C58)
+calc++\stdsoap2.cpp(8734): free(02211F58)
+calc++\stdsoap2.cpp(8735): free(02211EE0)
+calc++\stdsoap2.cpp(8740): free(02211310)
+calc++\stdsoap2.cpp(8749): free(02211E68)
+calc++\stdsoap2.cpp(8753): free(0220C920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(022120D0)
+calc++\stdsoap2.cpp(8036): free(0220F540)
+calc++\stdsoap2.cpp(8036): free(0222BAB8)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(007FDF40)
+calc++\stdsoap2.cpp(5612): free(007FDEE8)
+calc++\stdsoap2.cpp(5612): free(007FDE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00BF67E8)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=002D13FC type=7: not found
+Lookup location=002D1404 type=7: not found
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 00BF67E8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002D13FC type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002D13FC type=7 id=-1
+Lookup location=002D13FC type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002D1404 type=7 id=-1
+Lookup location=002D1404 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=352 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=352/fd=1
+Free namespace stack
+Begin send phase (socket=352 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002D13FC type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002D13FC type=7 id=-1
+Lookup location=002D13FC type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002D1404 type=7 id=-1
+Lookup location=002D1404 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=352/fd=1
+End of send phase
+Initializing for input from socket=352/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00BF67E8)
+Free pointer hashtable
+Free ID hashtable
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 00BF67E8
+Free ID hashtable
+Read 583 bytes from socket=352/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(36) = 00BF9B68
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 00BFCFE0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(10875): malloc(256) = 00BFD098
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00BFD228
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 00BFD3B8
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 00BFD460
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00BFD518
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 00BFD6A8
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 00BFD750
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00BFD800
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 00BFD990
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 00BFDA38
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00BFDAE8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 00BFDC78
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(32) = 00BFDD20
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00BFDDD0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(22) = 00BFDF60
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(15951): malloc(42) = 00BFE008
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(46) = 00BFE0C0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 00BFE180
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(16) = 00BFE310
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(20) = 00BFE3B0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00BFDF60)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00BFDC78)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00BFD990)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00BFD6A8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(00BFD3B8)
+Shutdown socket=352 how=1
+Shutdown socket=352 how=2
+Close socket=352
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00BFD228)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00BFCFE0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00BFD518)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00BFD460)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00BFD800)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00BFD750)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00BFDAE8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00BFDA38)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00BFDDD0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00BFDD20)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(00BFE180)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(00BFE0C0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8740): free(00BFD098)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8749): free(00BFE008)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(00BF67E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(00BFE3B0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(00BFE310)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(00BF9B68)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(003BC570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(003BC4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(003BC440)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(02FFC920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00501B80 type=7: not found
+Lookup location=00501B88 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 02FFC920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00501B80 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00501B80 type=7 id=-1
+Lookup location=00501B80 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00501B88 type=7 id=-1
+Lookup location=00501B88 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00501B80 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00501B80 type=7 id=-1
+Lookup location=00501B80 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00501B88 type=7 id=-1
+Lookup location=00501B88 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(02FFC920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 02FFC920
+Free ID hashtable
+Read 583 bytes from socket=344/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 0301BD70
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 0301BDB0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 03001310
+calc++\stdsoap2.cpp(11131): malloc(256) = 03001458
+calc++\stdsoap2.cpp(2833): malloc(28) = 030015A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 03001608
+calc++\stdsoap2.cpp(11131): malloc(256) = 03001678
+calc++\stdsoap2.cpp(2833): malloc(28) = 030017C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 03001828
+calc++\stdsoap2.cpp(11131): malloc(256) = 03001898
+calc++\stdsoap2.cpp(2833): malloc(23) = 030019E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 03001A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 03001AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 03001BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 03001C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 03001CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 03001E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 03001E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 03001EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 03001F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 02FFF540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 030020D0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(03001E08)
+calc++\stdsoap2.cpp(8778): free(03001BF8)
+calc++\stdsoap2.cpp(8778): free(030019E0)
+calc++\stdsoap2.cpp(8778): free(030017C0)
+calc++\stdsoap2.cpp(8778): free(030015A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(03001458)
+calc++\stdsoap2.cpp(8735): free(0301BDB0)
+calc++\stdsoap2.cpp(8734): free(03001678)
+calc++\stdsoap2.cpp(8735): free(03001608)
+calc++\stdsoap2.cpp(8734): free(03001898)
+calc++\stdsoap2.cpp(8735): free(03001828)
+calc++\stdsoap2.cpp(8734): free(03001AB0)
+calc++\stdsoap2.cpp(8735): free(03001A40)
+calc++\stdsoap2.cpp(8734): free(03001CC0)
+calc++\stdsoap2.cpp(8735): free(03001C58)
+calc++\stdsoap2.cpp(8734): free(03001F58)
+calc++\stdsoap2.cpp(8735): free(03001EE0)
+calc++\stdsoap2.cpp(8740): free(03001310)
+calc++\stdsoap2.cpp(8749): free(03001E68)
+calc++\stdsoap2.cpp(8753): free(02FFC920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(030020D0)
+calc++\stdsoap2.cpp(8036): free(02FFF540)
+calc++\stdsoap2.cpp(8036): free(0301BD70)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(0028DF40)
+calc++\stdsoap2.cpp(5612): free(0028DEE8)
+calc++\stdsoap2.cpp(5612): free(0028DE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00AFC920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00431E00 type=7: not found
+Lookup location=00431E08 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 00AFC920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00431E00 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00431E00 type=7 id=-1
+Lookup location=00431E00 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00431E08 type=7 id=-1
+Lookup location=00431E08 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00431E00 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00431E00 type=7 id=-1
+Lookup location=00431E00 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00431E08 type=7 id=-1
+Lookup location=00431E08 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00AFC920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 00AFC920
+Free ID hashtable
+Read 583 bytes from socket=344/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 00B1BAB8
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 00B1BAF8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 00B01310
+calc++\stdsoap2.cpp(11131): malloc(256) = 00B01458
+calc++\stdsoap2.cpp(2833): malloc(28) = 00B015A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 00B01608
+calc++\stdsoap2.cpp(11131): malloc(256) = 00B01678
+calc++\stdsoap2.cpp(2833): malloc(28) = 00B017C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 00B01828
+calc++\stdsoap2.cpp(11131): malloc(256) = 00B01898
+calc++\stdsoap2.cpp(2833): malloc(23) = 00B019E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 00B01A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 00B01AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 00B01BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 00B01C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 00B01CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 00B01E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 00B01E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 00B01EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 00B01F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 00AFF540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 00B020D0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(00B01E08)
+calc++\stdsoap2.cpp(8778): free(00B01BF8)
+calc++\stdsoap2.cpp(8778): free(00B019E0)
+calc++\stdsoap2.cpp(8778): free(00B017C0)
+calc++\stdsoap2.cpp(8778): free(00B015A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(00B01458)
+calc++\stdsoap2.cpp(8735): free(00B1BAF8)
+calc++\stdsoap2.cpp(8734): free(00B01678)
+calc++\stdsoap2.cpp(8735): free(00B01608)
+calc++\stdsoap2.cpp(8734): free(00B01898)
+calc++\stdsoap2.cpp(8735): free(00B01828)
+calc++\stdsoap2.cpp(8734): free(00B01AB0)
+calc++\stdsoap2.cpp(8735): free(00B01A40)
+calc++\stdsoap2.cpp(8734): free(00B01CC0)
+calc++\stdsoap2.cpp(8735): free(00B01C58)
+calc++\stdsoap2.cpp(8734): free(00B01F58)
+calc++\stdsoap2.cpp(8735): free(00B01EE0)
+calc++\stdsoap2.cpp(8740): free(00B01310)
+calc++\stdsoap2.cpp(8749): free(00B01E68)
+calc++\stdsoap2.cpp(8753): free(00AFC920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(00B020D0)
+calc++\stdsoap2.cpp(8036): free(00AFF540)
+calc++\stdsoap2.cpp(8036): free(00B1BAB8)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(007BDF40)
+calc++\stdsoap2.cpp(5612): free(007BDEE8)
+calc++\stdsoap2.cpp(5612): free(007BDE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00DAC920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=002F1900 type=7: not found
+Lookup location=002F1908 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 00DAC920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002F1900 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002F1900 type=7 id=-1
+Lookup location=002F1900 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002F1908 type=7 id=-1
+Lookup location=002F1908 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002F1900 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002F1900 type=7 id=-1
+Lookup location=002F1900 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002F1908 type=7 id=-1
+Lookup location=002F1908 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(00DAC920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 00DAC920
+Free ID hashtable
+Read 583 bytes from socket=344/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 00DCBD70
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 00DCBDB0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 00DB1310
+calc++\stdsoap2.cpp(11131): malloc(256) = 00DB1458
+calc++\stdsoap2.cpp(2833): malloc(28) = 00DB15A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 00DB1608
+calc++\stdsoap2.cpp(11131): malloc(256) = 00DB1678
+calc++\stdsoap2.cpp(2833): malloc(28) = 00DB17C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 00DB1828
+calc++\stdsoap2.cpp(11131): malloc(256) = 00DB1898
+calc++\stdsoap2.cpp(2833): malloc(23) = 00DB19E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 00DB1A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 00DB1AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 00DB1BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 00DB1C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 00DB1CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 00DB1E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 00DB1E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 00DB1EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 00DB1F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 00DAF540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 00DB20D0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(00DB1E08)
+calc++\stdsoap2.cpp(8778): free(00DB1BF8)
+calc++\stdsoap2.cpp(8778): free(00DB19E0)
+calc++\stdsoap2.cpp(8778): free(00DB17C0)
+calc++\stdsoap2.cpp(8778): free(00DB15A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(00DB1458)
+calc++\stdsoap2.cpp(8735): free(00DCBDB0)
+calc++\stdsoap2.cpp(8734): free(00DB1678)
+calc++\stdsoap2.cpp(8735): free(00DB1608)
+calc++\stdsoap2.cpp(8734): free(00DB1898)
+calc++\stdsoap2.cpp(8735): free(00DB1828)
+calc++\stdsoap2.cpp(8734): free(00DB1AB0)
+calc++\stdsoap2.cpp(8735): free(00DB1A40)
+calc++\stdsoap2.cpp(8734): free(00DB1CC0)
+calc++\stdsoap2.cpp(8735): free(00DB1C58)
+calc++\stdsoap2.cpp(8734): free(00DB1F58)
+calc++\stdsoap2.cpp(8735): free(00DB1EE0)
+calc++\stdsoap2.cpp(8740): free(00DB1310)
+calc++\stdsoap2.cpp(8749): free(00DB1E68)
+calc++\stdsoap2.cpp(8753): free(00DAC920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(00DB20D0)
+calc++\stdsoap2.cpp(8036): free(00DAF540)
+calc++\stdsoap2.cpp(8036): free(00DCBD70)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(004BDF40)
+calc++\stdsoap2.cpp(5612): free(004BDEE8)
+calc++\stdsoap2.cpp(5612): free(004BDE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(02FEC920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00331B40 type=7: not found
+Lookup location=00331B48 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 02FEC920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00331B40 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00331B40 type=7 id=-1
+Lookup location=00331B40 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00331B48 type=7 id=-1
+Lookup location=00331B48 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00331B40 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00331B40 type=7 id=-1
+Lookup location=00331B40 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 00331B48 type=7 id=-1
+Lookup location=00331B48 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(02FEC920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 02FEC920
+Free ID hashtable
+Read 583 bytes from socket=344/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 0300BD70
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 0300BDB0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 02FF1310
+calc++\stdsoap2.cpp(11131): malloc(256) = 02FF1458
+calc++\stdsoap2.cpp(2833): malloc(28) = 02FF15A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 02FF1608
+calc++\stdsoap2.cpp(11131): malloc(256) = 02FF1678
+calc++\stdsoap2.cpp(2833): malloc(28) = 02FF17C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 02FF1828
+calc++\stdsoap2.cpp(11131): malloc(256) = 02FF1898
+calc++\stdsoap2.cpp(2833): malloc(23) = 02FF19E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 02FF1A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 02FF1AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 02FF1BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 02FF1C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 02FF1CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 02FF1E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 02FF1E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 02FF1EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 02FF1F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 02FEF540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 02FF20D0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(02FF1E08)
+calc++\stdsoap2.cpp(8778): free(02FF1BF8)
+calc++\stdsoap2.cpp(8778): free(02FF19E0)
+calc++\stdsoap2.cpp(8778): free(02FF17C0)
+calc++\stdsoap2.cpp(8778): free(02FF15A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(02FF1458)
+calc++\stdsoap2.cpp(8735): free(0300BDB0)
+calc++\stdsoap2.cpp(8734): free(02FF1678)
+calc++\stdsoap2.cpp(8735): free(02FF1608)
+calc++\stdsoap2.cpp(8734): free(02FF1898)
+calc++\stdsoap2.cpp(8735): free(02FF1828)
+calc++\stdsoap2.cpp(8734): free(02FF1AB0)
+calc++\stdsoap2.cpp(8735): free(02FF1A40)
+calc++\stdsoap2.cpp(8734): free(02FF1CC0)
+calc++\stdsoap2.cpp(8735): free(02FF1C58)
+calc++\stdsoap2.cpp(8734): free(02FF1F58)
+calc++\stdsoap2.cpp(8735): free(02FF1EE0)
+calc++\stdsoap2.cpp(8740): free(02FF1310)
+calc++\stdsoap2.cpp(8749): free(02FF1E68)
+calc++\stdsoap2.cpp(8753): free(02FEC920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(02FF20D0)
+calc++\stdsoap2.cpp(8036): free(02FEF540)
+calc++\stdsoap2.cpp(8036): free(0300BD70)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(0067DF40)
+calc++\stdsoap2.cpp(5612): free(0067DEE8)
+calc++\stdsoap2.cpp(5612): free(0067DE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(027867E8)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=00321444 type=7: not found
+Lookup location=0032144C type=7: not found
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 027867E8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00321444 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00321444 type=7 id=-1
+Lookup location=00321444 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 0032144C type=7 id=-1
+Lookup location=0032144C type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=352 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=352/fd=1
+Free namespace stack
+Begin send phase (socket=352 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=00321444 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 00321444 type=7 id=-1
+Lookup location=00321444 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 0032144C type=7 id=-1
+Lookup location=0032144C type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=352/fd=1
+End of send phase
+Initializing for input from socket=352/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(027867E8)
+Free pointer hashtable
+Free ID hashtable
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 027867E8
+Free ID hashtable
+Read 583 bytes from socket=352/fd=0
+Read count=583 (+583)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(36) = 02789B68
+HTTP header: Content-Length: 466
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 0278CFE0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(10875): malloc(256) = 0278D098
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0278D228
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 0278D3B8
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 0278D460
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0278D518
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 0278D6A8
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 0278D750
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0278D800
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 0278D990
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 0278DA38
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0278DAE8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 0278DC78
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(32) = 0278DD20
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0278DDD0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(22) = 0278DF60
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(15951): malloc(42) = 0278E008
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(46) = 0278E0C0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0278E180
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(16) = 0278E310
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(20) = 0278E3B0
+Element content value='5'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0278DF60)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0278DC78)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0278D990)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0278D6A8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0278D3B8)
+Shutdown socket=352 how=1
+Shutdown socket=352 how=2
+Close socket=352
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0278D228)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0278CFE0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0278D518)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0278D460)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0278D800)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0278D750)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0278DAE8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0278DA38)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0278DDD0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0278DD20)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0278E180)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0278E0C0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8740): free(0278D098)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8749): free(0278E008)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(027867E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(0278E3B0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(0278E310)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(02789B68)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(004DC570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(004DC4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(004DC440)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028467E8)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=003C19EC type=7: not found
+Lookup location=003C19F4 type=7: not found
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 028467E8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=003C19EC type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 003C19EC type=7 id=-1
+Lookup location=003C19EC type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 003C19F4 type=7 id=-1
+Lookup location=003C19F4 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=352 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=352/fd=1
+Free namespace stack
+Begin send phase (socket=352 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=003C19EC type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 003C19EC type=7 id=-1
+Lookup location=003C19EC type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 003C19F4 type=7 id=-1
+Lookup location=003C19F4 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=352/fd=1
+End of send phase
+Initializing for input from socket=352/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028467E8)
+Free pointer hashtable
+Free ID hashtable
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(9632): malloc(96) = 028467E8
+Free ID hashtable
+Read 584 bytes from socket=352/fd=0
+Read count=584 (+584)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(36) = 02849B68
+HTTP header: Content-Length: 467
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 0284CFE0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(10875): malloc(256) = 0284D098
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0284D228
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 0284D3B8
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(38) = 0284D460
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0284D518
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(28) = 0284D6A8
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 0284D750
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0284D800
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 0284D990
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(33) = 0284DA38
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0284DAE8
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(23) = 0284DC78
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(32) = 0284DD20
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0284DDD0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(2833): malloc(22) = 0284DF60
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(15951): malloc(42) = 0284E008
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11072): malloc(46) = 0284E0C0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(11131): malloc(256) = 0284E180
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(16) = 0284E310
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(7877): malloc(20) = 0284E3B0
+Element content value='10'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0284DF60)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0284DC78)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0284D990)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0284D6A8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8778): free(0284D3B8)
+Shutdown socket=352 how=1
+Shutdown socket=352 how=2
+Close socket=352
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0284D228)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0284CFE0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0284D518)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0284D460)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0284D800)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0284D750)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0284DAE8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0284DA38)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0284DDD0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0284DD20)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8734): free(0284E180)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8735): free(0284E0C0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8740): free(0284D098)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8749): free(0284E008)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8753): free(028467E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(0284E3B0)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(0284E310)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(8036): free(02849B68)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0063C570)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0063C4D8)
+c:\users\thanh\documents\visual studio 2010\projects\calcsslgsoap\calcsslgsoap\calc++\stdsoap2.cpp(5612): free(0063C440)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0094C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=001F18C0 type=7: not found
+Lookup location=001F18C8 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 0094C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=001F18C0 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 001F18C0 type=7 id=-1
+Lookup location=001F18C0 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 001F18C8 type=7 id=-1
+Lookup location=001F18C8 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=001F18C0 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 001F18C0 type=7 id=-1
+Lookup location=001F18C0 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 001F18C8 type=7 id=-1
+Lookup location=001F18C8 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0094C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 0094C920
+Free ID hashtable
+Read 584 bytes from socket=344/fd=0
+Read count=584 (+584)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 0096BD70
+HTTP header: Content-Length: 467
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 0096BDB0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 00951310
+calc++\stdsoap2.cpp(11131): malloc(256) = 00951458
+calc++\stdsoap2.cpp(2833): malloc(28) = 009515A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 00951608
+calc++\stdsoap2.cpp(11131): malloc(256) = 00951678
+calc++\stdsoap2.cpp(2833): malloc(28) = 009517C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 00951828
+calc++\stdsoap2.cpp(11131): malloc(256) = 00951898
+calc++\stdsoap2.cpp(2833): malloc(23) = 009519E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 00951A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 00951AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 00951BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 00951C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 00951CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 00951E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 00951E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 00951EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 00951F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 0094F540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 009520D0
+Element content value='10'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(00951E08)
+calc++\stdsoap2.cpp(8778): free(00951BF8)
+calc++\stdsoap2.cpp(8778): free(009519E0)
+calc++\stdsoap2.cpp(8778): free(009517C0)
+calc++\stdsoap2.cpp(8778): free(009515A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(00951458)
+calc++\stdsoap2.cpp(8735): free(0096BDB0)
+calc++\stdsoap2.cpp(8734): free(00951678)
+calc++\stdsoap2.cpp(8735): free(00951608)
+calc++\stdsoap2.cpp(8734): free(00951898)
+calc++\stdsoap2.cpp(8735): free(00951828)
+calc++\stdsoap2.cpp(8734): free(00951AB0)
+calc++\stdsoap2.cpp(8735): free(00951A40)
+calc++\stdsoap2.cpp(8734): free(00951CC0)
+calc++\stdsoap2.cpp(8735): free(00951C58)
+calc++\stdsoap2.cpp(8734): free(00951F58)
+calc++\stdsoap2.cpp(8735): free(00951EE0)
+calc++\stdsoap2.cpp(8740): free(00951310)
+calc++\stdsoap2.cpp(8749): free(00951E68)
+calc++\stdsoap2.cpp(8753): free(0094C920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(009520D0)
+calc++\stdsoap2.cpp(8036): free(0094F540)
+calc++\stdsoap2.cpp(8036): free(0096BD70)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(0050DF40)
+calc++\stdsoap2.cpp(5612): free(0050DEE8)
+calc++\stdsoap2.cpp(5612): free(0050DE90)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0303C920)
+Free pointer hashtable
+Free ID hashtable
+Lookup location=002A1940 type=7: not found
+Lookup location=002A1948 type=7: not found
+Free namespace stack
+calc++\stdsoap2.cpp(9632): malloc(96) = 0303C920
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002A1940 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002A1940 type=7 id=-1
+Lookup location=002A1940 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002A1948 type=7 id=-1
+Lookup location=002A1948 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to 'https://10.49.46.201:2012' host='10.49.46.201' path='/' port=2012
+Opening socket=344 to host='10.49.46.201' port=2012
+Calculating the message size with attachments, current count=448
+New count=448
+Initializing for output to socket=344/fd=1
+Free namespace stack
+Begin send phase (socket=344 mode=0x801 count=448)
+HTTP POST to https://10.49.46.201:2012
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:ns'='urn:calc'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Attribute 'SOAP-ENV:encodingStyle'='http://schemas.xmlsoap.org/soap/encoding/'
+Lookup location=002A1940 type=11: not found
+Element begin tag='ns:add' level='2' id='0' type=''
+Embedded_id 002A1940 type=7 id=-1
+Lookup location=002A1940 type=7: not found
+Element begin tag='a' level='3' id='-1' type=''
+Element ending tag='a'
+Embedded_id 002A1948 type=7 id=-1
+Lookup location=002A1948 type=7: not found
+Element begin tag='b' level='3' id='-1' type=''
+Element ending tag='b'
+Element ending tag='ns:add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x801
+Send 594 bytes to socket=344/fd=1
+End of send phase
+Initializing for input from socket=344/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8753): free(0303C920)
+Free pointer hashtable
+Free ID hashtable
+calc++\stdsoap2.cpp(9632): malloc(96) = 0303C920
+Free ID hashtable
+Read 584 bytes from socket=344/fd=0
+Read count=584 (+584)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: gSOAP/2.8
+HTTP header: Content-Type: text/xml; charset=utf-8
+calc++\stdsoap2.cpp(7877): malloc(36) = 0305BAB8
+HTTP header: Content-Length: 467
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+calc++\stdsoap2.cpp(11072): malloc(38) = 0305BAF8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+calc++\stdsoap2.cpp(10875): malloc(256) = 03041310
+calc++\stdsoap2.cpp(11131): malloc(256) = 03041458
+calc++\stdsoap2.cpp(2833): malloc(28) = 030415A0
+Push namespace binding (level=0) 'SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(38) = 03041608
+calc++\stdsoap2.cpp(11131): malloc(256) = 03041678
+calc++\stdsoap2.cpp(2833): malloc(28) = 030417C0
+Push namespace binding (level=0) 'SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 03041828
+calc++\stdsoap2.cpp(11131): malloc(256) = 03041898
+calc++\stdsoap2.cpp(2833): malloc(23) = 030419E0
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(33) = 03041A40
+calc++\stdsoap2.cpp(11131): malloc(256) = 03041AB0
+calc++\stdsoap2.cpp(2833): malloc(23) = 03041BF8
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+calc++\stdsoap2.cpp(11072): malloc(32) = 03041C58
+calc++\stdsoap2.cpp(11131): malloc(256) = 03041CC0
+calc++\stdsoap2.cpp(2833): malloc(22) = 03041E08
+Push namespace binding (level=0) 'ns'='urn:calc'
+Push OK ('ns' matches 'ns' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+calc++\stdsoap2.cpp(15951): malloc(42) = 03041E68
+calc++\stdsoap2.cpp(11072): malloc(46) = 03041EE0
+calc++\stdsoap2.cpp(11131): malloc(256) = 03041F58
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Check (1) if receiving SOAP Fault (status = 200)
+Begin tag found (level=3) 'ns:addResponse'=''
+Enter id='' type=10 loc=00000000 size=4 level=0
+calc++\stdsoap2.cpp(7877): malloc(16) = 0303F540
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Reverting to last element 'result' (level=3)
+Tags match: 'result' 'result'
+Begin tag found (level=4) 'result'='result'
+Enter id='' type=7 loc=00000000 size=8 level=0
+calc++\stdsoap2.cpp(7877): malloc(20) = 030420D0
+Element content value='10'
+End tag found (level=4) 'result'='result'
+End tag found (level=3) 'ns:addResponse'=''
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+calc++\stdsoap2.cpp(8778): free(03041E08)
+calc++\stdsoap2.cpp(8778): free(03041BF8)
+calc++\stdsoap2.cpp(8778): free(030419E0)
+calc++\stdsoap2.cpp(8778): free(030417C0)
+calc++\stdsoap2.cpp(8778): free(030415A0)
+Shutdown socket=344 how=1
+Shutdown socket=344 how=2
+Close socket=344
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+calc++\stdsoap2.cpp(8734): free(03041458)
+calc++\stdsoap2.cpp(8735): free(0305BAF8)
+calc++\stdsoap2.cpp(8734): free(03041678)
+calc++\stdsoap2.cpp(8735): free(03041608)
+calc++\stdsoap2.cpp(8734): free(03041898)
+calc++\stdsoap2.cpp(8735): free(03041828)
+calc++\stdsoap2.cpp(8734): free(03041AB0)
+calc++\stdsoap2.cpp(8735): free(03041A40)
+calc++\stdsoap2.cpp(8734): free(03041CC0)
+calc++\stdsoap2.cpp(8735): free(03041C58)
+calc++\stdsoap2.cpp(8734): free(03041F58)
+calc++\stdsoap2.cpp(8735): free(03041EE0)
+calc++\stdsoap2.cpp(8740): free(03041310)
+calc++\stdsoap2.cpp(8749): free(03041E68)
+calc++\stdsoap2.cpp(8753): free(0303C920)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+calc++\stdsoap2.cpp(8036): free(030420D0)
+calc++\stdsoap2.cpp(8036): free(0303F540)
+calc++\stdsoap2.cpp(8036): free(0305BAB8)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+calc++\stdsoap2.cpp(5612): free(0099DF40)
+calc++\stdsoap2.cpp(5612): free(0099DEE8)
+calc++\stdsoap2.cpp(5612): free(0099DE90)
