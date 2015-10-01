@@ -103,6 +103,7 @@
   <ItemGroup>
     <ClInclude Include="GraphClass.h" />
     <ClInclude Include="gSoapToUI.h" />
+    <ClInclude Include="MyInfoDlg.h" />
     <ClInclude Include="PayloadDlg.h" />
     <ClInclude Include="PciDlg.h" />
     <ClInclude Include="PCIeTransmitGraph.h" />
@@ -116,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="GraphClass.cpp" />
     <ClCompile Include="gSoapToUI.cpp" />
+    <ClCompile Include="MyInfoDlg.cpp" />
     <ClCompile Include="PayloadDlg.cpp" />
     <ClCompile Include="PciDlg.cpp" />
     <ClCompile Include="PCIeTransmitGraph.cpp" />

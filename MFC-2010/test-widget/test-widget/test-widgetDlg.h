@@ -74,4 +74,12 @@ public:
 	afx_msg void OnBnClickedButton2();
 //	CFileDialog m_CfileDialog;
 	afx_msg void OnBnClickedButton3();
+	float m_sohanga;
+	float m_sohangb;
+	float m_ketqua;
+	afx_msg void OnBnClickedBtnCalculate();
+//	int m_calculator_function;
+	int m_calculator_function;
+	BOOL m_enable_calculate;
+	afx_msg void OnBnClickedBtnInputInfo();
 };

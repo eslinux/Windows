@@ -63,6 +63,9 @@
     <ClInclude Include="gSoapToUI.h">
       <Filter>Source Files\gSOAP</Filter>
     </ClInclude>
+    <ClInclude Include="MyInfoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test-widget.cpp">
@@ -91,6 +94,9 @@
     </ClCompile>
     <ClCompile Include="gSoapToUI.cpp">
       <Filter>Source Files\gSOAP</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInfoDlg.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

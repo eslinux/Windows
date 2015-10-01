@@ -7,6 +7,8 @@
 #include "test-widgetDlg.h"
 #include "afxdialogex.h"
 
+#include "MyInfoDlg.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -50,8 +52,14 @@ END_MESSAGE_MAP()
 
 CtestwidgetDlg::CtestwidgetDlg(CWnd* pParent /*=NULL*/)
 	: CDialogEx(CtestwidgetDlg::IDD, pParent)
+	, m_sohanga(0)
+	, m_sohangb(0)
+	, m_ketqua(0)
+	, m_calculator_function(0)
+	, m_enable_calculate(FALSE)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+	m_calculator_function = 0;
 }
 
 void CtestwidgetDlg::DoDataExchange(CDataExchange* pDX)
@@ -65,6 +73,11 @@ void CtestwidgetDlg::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_IPADDRESS1, m_IPAdress);
 	DDX_Control(pDX, IDC_NETADDRESS1, m_NetAddCtrl);
 	DDX_Control(pDX, IDC_PROGRESS1, m_ProgressBar);
+	DDX_Text(pDX, IDC_SOHANGA, m_sohanga);
+	DDX_Text(pDX, IDC_SOHANGB, m_sohangb);
+	DDX_Text(pDX, IDC_KETQUA, m_ketqua);
+	DDX_Radio(pDX, IDC_CALCULATOR_FUNCTION, m_calculator_function);
+	DDX_Check(pDX, IDC_ENABLE_CALCULATE, m_enable_calculate);
 }
 
 BEGIN_MESSAGE_MAP(CtestwidgetDlg, CDialogEx)
@@ -87,6 +100,8 @@ ON_WM_TIMER()
 ON_BN_CLICKED(IDC_BUTTON1, &CtestwidgetDlg::OnBnClickedButton1)
 ON_BN_CLICKED(IDC_BUTTON2, &CtestwidgetDlg::OnBnClickedButton2)
 ON_BN_CLICKED(IDC_BUTTON3, &CtestwidgetDlg::OnBnClickedButton3)
+ON_BN_CLICKED(IDC_BTN_CALCULATE, &CtestwidgetDlg::OnBnClickedBtnCalculate)
+ON_BN_CLICKED(IDC_BTN_INPUT_INFO, &CtestwidgetDlg::OnBnClickedBtnInputInfo)
 END_MESSAGE_MAP()
 
 
@@ -560,4 +575,86 @@ void CtestwidgetDlg::OnBnClickedButton3()
 	{  
 		AfxMessageBox(FileDlg.GetPathName());
 	}
+}
+
+
+void CtestwidgetDlg::OnBnClickedBtnCalculate()
+{
+	// TODO: Add your control notification handler code here
+
+	
+
+	UpdateData(TRUE);
+
+	if(!m_enable_calculate){
+		TRACE(traceAppMsg, 0, "============== disable calculate =======================\n");
+		return;
+	}
+
+
+
+	TRACE(traceAppMsg, 0, "============== a = %f =======================\n", m_sohanga);
+	TRACE(traceAppMsg, 0, "============== b = %f =======================\n", m_sohangb);
+	TRACE(traceAppMsg, 0, "============== m_calculator_function = %f =======================\n", m_calculator_function);
+
+
+#if 0
+	CEdit * pEdit;
+	pEdit = (CEdit *)GetDlgItem(IDC_KETQUA);
+	CString strResult;
+	strResult.Format(_T("%f", m_sohanga + m_sohangb));
+	pEdit->SetWindowTextW(strResult);
+#else
+	switch(m_calculator_function){
+	case 0:
+		m_ketqua = m_sohanga + m_sohangb;
+		break;
+	case 1:
+		m_ketqua = m_sohanga - m_sohangb;
+		break;
+	case 2:
+		m_ketqua = m_sohanga * m_sohangb;
+		break;
+	case 3:
+		if(m_sohangb != 0)
+		m_ketqua = m_sohanga / m_sohangb;
+		else
+			MessageBox(_T("b value must be not equal 0"));
+		break;
+	default:
+		break;
+	}
+	
+	UpdateData(FALSE);
+#endif
+
+
+
+}
+
+
+void CtestwidgetDlg::OnBnClickedBtnInputInfo()
+{
+	// TODO: Add your control notification handler code here
+
+	MyInfoDlg* dlg=new MyInfoDlg();
+ 
+	if(dlg->DoModal()==IDOK)
+ 
+	{
+ 
+		SetDlgItemText(IDC_NAME,dlg->m_sName);
+ 
+		CString strAge;
+ 
+		strAge.Format(_T("%d"), dlg->m_iAge);
+ 
+		SetDlgItemText(IDC_AGE, strAge);
+ 
+	}
+
+
+
+
+
 }
