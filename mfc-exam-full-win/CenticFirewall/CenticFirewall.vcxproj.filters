@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\gSoapEngine">
+      <UniqueIdentifier>{b107b582-add1-4d36-8dc5-4b74c81852f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{0f80b828-2326-4482-a31c-1d93734deb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\status">
+      <UniqueIdentifier>{e621376f-177f-4cab-8075-4be8d3fe09e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{7a3b910b-2a28-42c0-85e4-871f3bd51625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services">
+      <UniqueIdentifier>{7f36dba4-6acf-4720-a140-1e02b486feb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\firewall">
+      <UniqueIdentifier>{9ae63c7e-d3b5-4b94-8181-60d8f27933f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mfc-util">
+      <UniqueIdentifier>{2c28b0ba-dc99-49f9-baef-168c647bc6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\login">
+      <UniqueIdentifier>{c54a8239-635e-4921-96c0-32e38deb4628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\settings">
+      <UniqueIdentifier>{042c2148-cc3b-41fb-978b-956b3d5e088c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\runtime">
+      <UniqueIdentifier>{f31cf5a0-588c-487f-ad28-028b1f658611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logs">
+      <UniqueIdentifier>{51ba8c9a-c6d6-4764-a8e8-037d3d11d01c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\CenticFirewall.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CenticFirewall.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\gSoapEngine\ctSoap.nsmap">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CenticFirewall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gSoapEngine\gSoapEngine.h">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gSoapEngine\soapH.h">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gSoapEngine\soapStub.h">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gSoapEngine\stdsoap2.h">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\DlgResizeHelper.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsDlg.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDlg.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesDlg.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDlg.h">
+      <Filter>Source Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusDlg.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="CenticFirewallDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FirewallDlg.h">
+      <Filter>Source Files\firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>Source Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="FwGeoIP.h">
+      <Filter>Source Files\firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="FwGroups.h">
+      <Filter>Source Files\firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="FwOptions.h">
+      <Filter>Source Files\firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="FwP2P.h">
+      <Filter>Source Files\firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="FwRules.h">
+      <Filter>Source Files\firewall</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsFwLoggraphCountry.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsSystem.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsFwLoggraphIP.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsFwLoggraphPort.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsFwLogs.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsIDS.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsProxyLogs.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsProxyReports.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsSettings.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsSummary.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsURLFilter.h">
+      <Filter>Source Files\logs</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSysInformation.h">
+      <Filter>Source Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBackup.h">
+      <Filter>Source Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemHome.h">
+      <Filter>Source Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemShutdown.h">
+      <Filter>Source Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusSystem.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusConnection.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusIPSecVPN.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusNetTraffic.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusNetworkExternal.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusNetworkInternal.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusNetworkOther.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusServices.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusSslVpn.h">
+      <Filter>Source Files\status</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesTimeServer.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesDynamicDNS.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesIDS.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesIPSecVPN.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesQoS.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesSslVpn.h">
+      <Filter>Source Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>Source Files\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkWebProxy.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkConnectionScheduler.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDHCPServer.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDNSForwarding.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDNSServer.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkEditHosts.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkRouting.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkURLFilter.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="centic_wm.h">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg_para.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\QuickEdit.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\QuickList.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\theme.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\ThemeLib.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\PictureEx.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="event_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CenticFirewallRuntime.h">
+      <Filter>Source Files\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphClass.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\Color.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\ColorEdit.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mfc-util\ColorStatic.h">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CenticFirewall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CenticFirewallDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gSoapEngine\gSoapEngine.cpp">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gSoapEngine\soapC.cpp">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gSoapEngine\soapClient.cpp">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gSoapEngine\stdsoap2.cpp">
+      <Filter>Source Files\gSoapEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\DlgResizeHelper.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsDlg.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDlg.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesDlg.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemDlg.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusDlg.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="FirewallDlg.cpp">
+      <Filter>Source Files\firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>Source Files\login</Filter>
+    </ClCompile>
+    <ClCompile Include="FwGeoIP.cpp">
+      <Filter>Source Files\firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="FwGroups.cpp">
+      <Filter>Source Files\firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="FwOptions.cpp">
+      <Filter>Source Files\firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="FwP2P.cpp">
+      <Filter>Source Files\firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="FwRules.cpp">
+      <Filter>Source Files\firewall</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsFwLoggraphCountry.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsFwLoggraphIP.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsFwLoggraphPort.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsFwLogs.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsIDS.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsProxyLogs.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsProxyReports.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsSettings.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsSummary.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsSystem.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsURLFilter.cpp">
+      <Filter>Source Files\logs</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkConnectionScheduler.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDHCPServer.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDNSForwarding.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDNSServer.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkEditHosts.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkRouting.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkURLFilter.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkWebProxy.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesDynamicDNS.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesTimeServer.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesIDS.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesIPSecVPN.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesQoS.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesSslVpn.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusConnection.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusSystem.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusIPSecVPN.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusNetTraffic.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusNetworkExternal.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusNetworkInternal.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusNetworkOther.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusServices.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusSslVpn.cpp">
+      <Filter>Source Files\status</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemBackup.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemSysInformation.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemHome.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemShutdown.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>Source Files\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\QuickEdit.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\QuickList.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\theme.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\PictureEx.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="CenticFirewallRuntime.cpp">
+      <Filter>Source Files\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphClass.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\ColorEdit.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfc-util\ColorStatic.cpp">
+      <Filter>Source Files\mfc-util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CenticFirewall.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

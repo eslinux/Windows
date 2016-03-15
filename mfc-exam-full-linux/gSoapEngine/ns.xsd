@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <schema targetNamespace="urn:ctSoap"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="urn:ctSoap"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <simpleType name="SysBackupEvent"><!-- ns__SysBackupEvent -->
+
+   <restriction base="xsd:string">
+    <enumeration value="EVENT-NONE"/><!-- ns__SysBackupEvent::EVENT_NONE -->
+    <!-- = -5 -->
+    <enumeration value="EVENT-GET-FILENAME-CONFIG"/><!-- ns__SysBackupEvent::EVENT_GET_FILENAME_CONFIG -->
+    <!-- = -4 -->
+    <enumeration value="EVENT-GET-FILENAME-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_GET_FILENAME_FIRMWARE -->
+    <!-- = -3 -->
+    <enumeration value="EVENT-SET-FILENAME-CONFIG"/><!-- ns__SysBackupEvent::EVENT_SET_FILENAME_CONFIG -->
+    <!-- = -2 -->
+    <enumeration value="EVENT-SET-FILENAME-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_SET_FILENAME_FIRMWARE -->
+    <!-- = -1 -->
+    <enumeration value="EVENT-BACKUP-CONFIGURATION"/><!-- ns__SysBackupEvent::EVENT_BACKUP_CONFIGURATION -->
+    <!-- = 0 -->
+    <enumeration value="EVENT-UPDATE-CONFIGURATION"/><!-- ns__SysBackupEvent::EVENT_UPDATE_CONFIGURATION -->
+    <!-- = 1 -->
+    <enumeration value="EVENT-BACKUP-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_BACKUP_FIRMWARE -->
+    <!-- = 2 -->
+    <enumeration value="EVENT-UPDATE-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_UPDATE_FIRMWARE -->
+    <!-- = 3 -->
+   </restriction>
+  </simpleType>
+  <simpleType name="SysShutdownEvent"><!-- ns__SysShutdownEvent -->
+
+   <restriction base="xsd:string">
+    <enumeration value="EVENT-SHUTDOWN"/><!-- ns__SysShutdownEvent::EVENT_SHUTDOWN -->
+    <!-- = 0 -->
+    <enumeration value="EVENT-REBOOT"/><!-- ns__SysShutdownEvent::EVENT_REBOOT -->
+    <!-- = 1 -->
+    <enumeration value="EVENT-LOGOUT"/><!-- ns__SysShutdownEvent::EVENT_LOGOUT -->
+    <!-- = 2 -->
+   </restriction>
+  </simpleType>
+  <complexType name="Data">
+   <annotation>
+    <documentation>contains DIME attachment data</documentation>
+   </annotation>
+   <simpleContent>
+    <extension base="xsd:base64Binary">
+     <attribute name="href" type="xsd:anyURI" use="optional"/>
+    </extension>
+   </simpleContent>
+  </complexType>
+ </schema>
+

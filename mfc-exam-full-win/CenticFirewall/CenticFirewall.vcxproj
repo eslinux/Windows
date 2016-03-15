@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CA83E2B4-8E83-4F82-80F3-DA94372F164D}</ProjectGuid>
+    <RootNamespace>CenticFirewall</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WITH_OPENSSL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src\gSoapEngine\import;src;src\top_menu;src\firewall;src\login;src\mfc-util;C:\Build-OpenSSL-VC-32\include;src\gSoapEngine;src\services;src\status;src\log;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Build-OpenSSL-VC-32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libeay32.lib;ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WITH_OPENSSL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src\gSoapEngine;src\mfc-util;src;C:\Build-OpenSSL-VC-32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Build-OpenSSL-VC-32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libeay32.lib;ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\CenticFirewall.ico" />
+    <None Include="res\CenticFirewall.rc2" />
+    <None Include="src\gSoapEngine\ctSoap.nsmap" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CenticFirewall.h" />
+    <ClInclude Include="CenticFirewallDlg.h" />
+    <ClInclude Include="CenticFirewallRuntime.h" />
+    <ClInclude Include="centic_wm.h" />
+    <ClInclude Include="dlg_para.h" />
+    <ClInclude Include="event_handle.h" />
+    <ClInclude Include="FirewallDlg.h" />
+    <ClInclude Include="FwGeoIP.h" />
+    <ClInclude Include="FwGroups.h" />
+    <ClInclude Include="FwOptions.h" />
+    <ClInclude Include="FwP2P.h" />
+    <ClInclude Include="FwRules.h" />
+    <ClInclude Include="GraphClass.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="LogsDlg.h" />
+    <ClInclude Include="LogsFwLoggraphCountry.h" />
+    <ClInclude Include="LogsFwLoggraphIP.h" />
+    <ClInclude Include="LogsFwLoggraphPort.h" />
+    <ClInclude Include="LogsFwLogs.h" />
+    <ClInclude Include="LogsIDS.h" />
+    <ClInclude Include="LogsProxyLogs.h" />
+    <ClInclude Include="LogsProxyReports.h" />
+    <ClInclude Include="LogsSettings.h" />
+    <ClInclude Include="LogsSummary.h" />
+    <ClInclude Include="LogsSystem.h" />
+    <ClInclude Include="LogsURLFilter.h" />
+    <ClInclude Include="memory_handle.h" />
+    <ClInclude Include="NetworkConnectionScheduler.h" />
+    <ClInclude Include="NetworkDHCPServer.h" />
+    <ClInclude Include="NetworkDlg.h" />
+    <ClInclude Include="NetworkDNSForwarding.h" />
+    <ClInclude Include="NetworkDNSServer.h" />
+    <ClInclude Include="NetworkEditHosts.h" />
+    <ClInclude Include="NetworkRouting.h" />
+    <ClInclude Include="NetworkURLFilter.h" />
+    <ClInclude Include="NetworkWebProxy.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ServicesDlg.h" />
+    <ClInclude Include="ServicesDynamicDNS.h" />
+    <ClInclude Include="ServicesIDS.h" />
+    <ClInclude Include="ServicesIPSecVPN.h" />
+    <ClInclude Include="ServicesQoS.h" />
+    <ClInclude Include="ServicesSslVpn.h" />
+    <ClInclude Include="ServicesTimeServer.h" />
+    <ClInclude Include="SettingDlg.h" />
+    <ClInclude Include="src\gSoapEngine\gSoapEngine.h" />
+    <ClInclude Include="src\gSoapEngine\soapH.h" />
+    <ClInclude Include="src\gSoapEngine\soapStub.h" />
+    <ClInclude Include="src\gSoapEngine\stdsoap2.h" />
+    <ClInclude Include="src\mfc-util\Color.h" />
+    <ClInclude Include="src\mfc-util\ColorEdit.h" />
+    <ClInclude Include="src\mfc-util\ColorStatic.h" />
+    <ClInclude Include="src\mfc-util\DlgResizeHelper.h" />
+    <ClInclude Include="src\mfc-util\PictureEx.h" />
+    <ClInclude Include="src\mfc-util\QuickEdit.h" />
+    <ClInclude Include="src\mfc-util\QuickList.h" />
+    <ClInclude Include="src\mfc-util\theme.h" />
+    <ClInclude Include="src\mfc-util\ThemeLib.h" />
+    <ClInclude Include="StatusConnection.h" />
+    <ClInclude Include="StatusDlg.h" />
+    <ClInclude Include="StatusIPSecVPN.h" />
+    <ClInclude Include="StatusNetTraffic.h" />
+    <ClInclude Include="StatusNetworkExternal.h" />
+    <ClInclude Include="StatusNetworkInternal.h" />
+    <ClInclude Include="StatusNetworkOther.h" />
+    <ClInclude Include="StatusServices.h" />
+    <ClInclude Include="StatusSslVpn.h" />
+    <ClInclude Include="StatusSystem.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemBackup.h" />
+    <ClInclude Include="SystemDlg.h" />
+    <ClInclude Include="SystemHome.h" />
+    <ClInclude Include="SystemShutdown.h" />
+    <ClInclude Include="SystemSysInformation.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CenticFirewall.cpp" />
+    <ClCompile Include="CenticFirewallDlg.cpp" />
+    <ClCompile Include="CenticFirewallRuntime.cpp" />
+    <ClCompile Include="FirewallDlg.cpp" />
+    <ClCompile Include="FwGeoIP.cpp" />
+    <ClCompile Include="FwGroups.cpp" />
+    <ClCompile Include="FwOptions.cpp" />
+    <ClCompile Include="FwP2P.cpp" />
+    <ClCompile Include="FwRules.cpp" />
+    <ClCompile Include="GraphClass.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="LogsDlg.cpp" />
+    <ClCompile Include="LogsFwLoggraphCountry.cpp" />
+    <ClCompile Include="LogsFwLoggraphIP.cpp" />
+    <ClCompile Include="LogsFwLoggraphPort.cpp" />
+    <ClCompile Include="LogsFwLogs.cpp" />
+    <ClCompile Include="LogsIDS.cpp" />
+    <ClCompile Include="LogsProxyLogs.cpp" />
+    <ClCompile Include="LogsProxyReports.cpp" />
+    <ClCompile Include="LogsSettings.cpp" />
+    <ClCompile Include="LogsSummary.cpp" />
+    <ClCompile Include="LogsSystem.cpp" />
+    <ClCompile Include="LogsURLFilter.cpp" />
+    <ClCompile Include="NetworkConnectionScheduler.cpp" />
+    <ClCompile Include="NetworkDHCPServer.cpp" />
+    <ClCompile Include="NetworkDlg.cpp" />
+    <ClCompile Include="NetworkDNSForwarding.cpp" />
+    <ClCompile Include="NetworkDNSServer.cpp" />
+    <ClCompile Include="NetworkEditHosts.cpp" />
+    <ClCompile Include="NetworkRouting.cpp" />
+    <ClCompile Include="NetworkURLFilter.cpp" />
+    <ClCompile Include="NetworkWebProxy.cpp" />
+    <ClCompile Include="ServicesDlg.cpp" />
+    <ClCompile Include="ServicesDynamicDNS.cpp" />
+    <ClCompile Include="ServicesIDS.cpp" />
+    <ClCompile Include="ServicesIPSecVPN.cpp" />
+    <ClCompile Include="ServicesQoS.cpp" />
+    <ClCompile Include="ServicesSslVpn.cpp" />
+    <ClCompile Include="ServicesTimeServer.cpp" />
+    <ClCompile Include="SettingDlg.cpp" />
+    <ClCompile Include="src\gSoapEngine\gSoapEngine.cpp" />
+    <ClCompile Include="src\gSoapEngine\soapC.cpp" />
+    <ClCompile Include="src\gSoapEngine\soapClient.cpp" />
+    <ClCompile Include="src\gSoapEngine\stdsoap2.cpp" />
+    <ClCompile Include="src\mfc-util\ColorEdit.cpp" />
+    <ClCompile Include="src\mfc-util\ColorStatic.cpp" />
+    <ClCompile Include="src\mfc-util\DlgResizeHelper.cpp" />
+    <ClCompile Include="src\mfc-util\PictureEx.cpp" />
+    <ClCompile Include="src\mfc-util\QuickEdit.cpp" />
+    <ClCompile Include="src\mfc-util\QuickList.cpp" />
+    <ClCompile Include="src\mfc-util\theme.cpp" />
+    <ClCompile Include="StatusConnection.cpp" />
+    <ClCompile Include="StatusDlg.cpp" />
+    <ClCompile Include="StatusIPSecVPN.cpp" />
+    <ClCompile Include="StatusNetTraffic.cpp" />
+    <ClCompile Include="StatusNetworkExternal.cpp" />
+    <ClCompile Include="StatusNetworkInternal.cpp" />
+    <ClCompile Include="StatusNetworkOther.cpp" />
+    <ClCompile Include="StatusServices.cpp" />
+    <ClCompile Include="StatusSslVpn.cpp" />
+    <ClCompile Include="StatusSystem.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemBackup.cpp" />
+    <ClCompile Include="SystemDlg.cpp" />
+    <ClCompile Include="SystemHome.cpp" />
+    <ClCompile Include="SystemShutdown.cpp" />
+    <ClCompile Include="SystemSysInformation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CenticFirewall.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CenticFirewall.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

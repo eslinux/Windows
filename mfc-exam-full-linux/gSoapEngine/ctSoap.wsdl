@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="ctSoap"
+ targetNamespace="https://localhost:8085/ctSoap.wsdl"
+ xmlns:tns="https://localhost:8085/ctSoap.wsdl"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns="urn:ctSoap"
+ xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:HTTP="http://schemas.xmlsoap.org/wsdl/http/"
+ xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
+ xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
+ xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/"
+ xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+<types>
+
+ <schema targetNamespace="urn:ctSoap"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="urn:ctSoap"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <simpleType name="SysBackupEvent"><!-- ns__SysBackupEvent -->
+
+   <restriction base="xsd:string">
+    <enumeration value="EVENT-NONE"/><!-- ns__SysBackupEvent::EVENT_NONE -->
+    <!-- = -5 -->
+    <enumeration value="EVENT-GET-FILENAME-CONFIG"/><!-- ns__SysBackupEvent::EVENT_GET_FILENAME_CONFIG -->
+    <!-- = -4 -->
+    <enumeration value="EVENT-GET-FILENAME-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_GET_FILENAME_FIRMWARE -->
+    <!-- = -3 -->
+    <enumeration value="EVENT-SET-FILENAME-CONFIG"/><!-- ns__SysBackupEvent::EVENT_SET_FILENAME_CONFIG -->
+    <!-- = -2 -->
+    <enumeration value="EVENT-SET-FILENAME-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_SET_FILENAME_FIRMWARE -->
+    <!-- = -1 -->
+    <enumeration value="EVENT-BACKUP-CONFIGURATION"/><!-- ns__SysBackupEvent::EVENT_BACKUP_CONFIGURATION -->
+    <!-- = 0 -->
+    <enumeration value="EVENT-UPDATE-CONFIGURATION"/><!-- ns__SysBackupEvent::EVENT_UPDATE_CONFIGURATION -->
+    <!-- = 1 -->
+    <enumeration value="EVENT-BACKUP-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_BACKUP_FIRMWARE -->
+    <!-- = 2 -->
+    <enumeration value="EVENT-UPDATE-FIRMWARE"/><!-- ns__SysBackupEvent::EVENT_UPDATE_FIRMWARE -->
+    <!-- = 3 -->
+   </restriction>
+  </simpleType>
+  <simpleType name="SysShutdownEvent"><!-- ns__SysShutdownEvent -->
+
+   <restriction base="xsd:string">
+    <enumeration value="EVENT-SHUTDOWN"/><!-- ns__SysShutdownEvent::EVENT_SHUTDOWN -->
+    <!-- = 0 -->
+    <enumeration value="EVENT-REBOOT"/><!-- ns__SysShutdownEvent::EVENT_REBOOT -->
+    <!-- = 1 -->
+    <enumeration value="EVENT-LOGOUT"/><!-- ns__SysShutdownEvent::EVENT_LOGOUT -->
+    <!-- = 2 -->
+   </restriction>
+  </simpleType>
+  <simpleType name="SysGraphMode-t"><!-- SysGraphMode_t -->
+
+   <restriction base="xsd:string">
+    <enumeration value="GRAPH-MODE-HOUR"/><!-- SysGraphMode_t::GRAPH_MODE_HOUR -->
+    <!-- = 0 -->
+    <enumeration value="GRAPH-MODE-DAY"/><!-- SysGraphMode_t::GRAPH_MODE_DAY -->
+    <!-- = 1 -->
+    <enumeration value="GRAPH-MODE-WEEK"/><!-- SysGraphMode_t::GRAPH_MODE_WEEK -->
+    <!-- = 2 -->
+    <enumeration value="GRAPH-MODE-MONTH"/><!-- SysGraphMode_t::GRAPH_MODE_MONTH -->
+    <!-- = 3 -->
+    <enumeration value="GRAPH-MODE-YEAR"/><!-- SysGraphMode_t::GRAPH_MODE_YEAR -->
+    <!-- = 4 -->
+   </restriction>
+  </simpleType>
+  <simpleType name="SysGraphNumPoint-t"><!-- SysGraphNumPoint_t -->
+
+   <restriction base="xsd:string">
+    <enumeration value="NUMS-POINT-HOUR"/><!-- SysGraphNumPoint_t::NUMS_POINT_HOUR -->
+    <!-- = 7 -->
+    <enumeration value="NUMS-POINT-DAY"/><!-- SysGraphNumPoint_t::NUMS_POINT_DAY -->
+    <!-- = 13 -->
+    <enumeration value="NUMS-POINT-WEEK"/><!-- SysGraphNumPoint_t::NUMS_POINT_WEEK -->
+    <!-- = 7 -->
+    <enumeration value="NUMS-POINT-MONTH"/><!-- SysGraphNumPoint_t::NUMS_POINT_MONTH -->
+    <!-- = 12 -->
+    <enumeration value="NUMS-POINT-YEAR"/><!-- SysGraphNumPoint_t::NUMS_POINT_YEAR -->
+    <!-- = 6 -->
+   </restriction>
+  </simpleType>
+  <simpleType name="legend-t"><!-- legend_t -->
+
+   <restriction base="xsd:string">
+    <enumeration value="LEGEND-LAN"/><!-- legend_t::LEGEND_LAN -->
+    <!-- = 0 -->
+    <enumeration value="LEGEND-INTERNET"/><!-- legend_t::LEGEND_INTERNET -->
+    <!-- = 1 -->
+    <enumeration value="LEGEND-DMZ"/><!-- legend_t::LEGEND_DMZ -->
+    <!-- = 2 -->
+    <enumeration value="LEGEND-FIREWALL"/><!-- legend_t::LEGEND_FIREWALL -->
+    <!-- = 3 -->
+    <enumeration value="LEGEND-IPSEC"/><!-- legend_t::LEGEND_IPSEC -->
+    <!-- = 4 -->
+    <enumeration value="LEGEND-SSLVPN"/><!-- legend_t::LEGEND_SSLVPN -->
+    <!-- = 5 -->
+    <enumeration value="LEGEND-MULTICAST"/><!-- legend_t::LEGEND_MULTICAST -->
+    <!-- = 6 -->
+   </restriction>
+  </simpleType>
+  <complexType name="Data">
+   <annotation>
+    <documentation>contains DIME attachment data</documentation>
+   </annotation>
+   <simpleContent>
+    <extension base="xsd:base64Binary">
+     <attribute name="href" type="xsd:anyURI" use="optional"/>
+    </extension>
+   </simpleContent>
+  </complexType>
+  <complexType name="ArrayOfData">
+   <complexContent>
+    <restriction base="SOAP-ENC:Array">
+     <sequence>
+      <element name="item" type="ns:Data" minOccurs="0" maxOccurs="unbounded" nillable="false"/>
+     </sequence>
+     <attribute ref="SOAP-ENC:arrayType" WSDL:arrayType="ns:Data[]"/>
+    </restriction>
+   </complexContent>
+  </complexType>
+  <complexType name="ArrayOfstring">
+   <complexContent>
+    <restriction base="SOAP-ENC:Array">
+     <sequence>
+      <element name="item" type="xsd:string" minOccurs="0" maxOccurs="unbounded" nillable="true"/>
+     </sequence>
+     <attribute ref="SOAP-ENC:arrayType" WSDL:arrayType="xsd:string[]"/>
+    </restriction>
+   </complexContent>
+  </complexType>
+  <complexType name="RuntimeInfo-t"><!-- RuntimeInfo_t -->
+
+   <sequence>
+     <element name="isConnected" type="xsd:boolean" minOccurs="1" maxOccurs="1"/><!-- RuntimeInfo_t::isConnected -->
+     <element name="inSpeed" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- RuntimeInfo_t::inSpeed -->
+     <element name="outSpeed" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- RuntimeInfo_t::outSpeed -->
+   </sequence>
+  </complexType>
+  <complexType name="IfInfot-t"><!-- IfInfot_t -->
+
+   <sequence>
+     <element name="ifname" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- IfInfot_t::ifname -->
+     <element name="ip" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- IfInfot_t::ip -->
+     <element name="netmask" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- IfInfot_t::netmask -->
+     <element name="mac" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- IfInfot_t::mac -->
+     <element name="mtu" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- IfInfot_t::mtu -->
+   </sequence>
+  </complexType>
+  <complexType name="NetInterface-t"><!-- NetInterface_t -->
+
+   <sequence>
+     <element name="lanIfList" type="ns:IfInfot-t" minOccurs="0" maxOccurs="unbounded"/><!-- NetInterface_t::lanIfList -->
+     <element name="netIfList" type="ns:IfInfot-t" minOccurs="0" maxOccurs="unbounded"/><!-- NetInterface_t::netIfList -->
+     <element name="gw" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- NetInterface_t::gw -->
+     <element name="dns" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- NetInterface_t::dns -->
+   </sequence>
+  </complexType>
+  <complexType name="SysBackupRet-t"><!-- SysBackupRet_t -->
+
+   <sequence>
+     <element name="filename" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- SysBackupRet_t::filename -->
+   </sequence>
+  </complexType>
+  <complexType name="SysInfo-t"><!-- SysInfo_t -->
+
+   <sequence>
+     <element name="ctfw-version" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- SysInfo_t::ctfw_version -->
+     <element name="cpu" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- SysInfo_t::cpu -->
+     <element name="memory" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- SysInfo_t::memory -->
+   </sequence>
+  </complexType>
+  <complexType name="GraphData-t"><!-- GraphData_t -->
+
+   <sequence>
+     <element name="grapData" type="xsd:int" minOccurs="0" maxOccurs="unbounded"/><!-- GraphData_t::grapData -->
+   </sequence>
+  </complexType>
+  <complexType name="SystemData-t"><!-- SystemData_t -->
+
+   <sequence>
+     <element name="cpuData" type="ns:GraphData-t" minOccurs="0" maxOccurs="unbounded"/><!-- SystemData_t::cpuData -->
+     <element name="memoryData" type="ns:GraphData-t" minOccurs="0" maxOccurs="unbounded"/><!-- SystemData_t::memoryData -->
+   </sequence>
+  </complexType>
+  <complexType name="NetTraffic-t"><!-- NetTraffic_t -->
+
+   <sequence>
+     <element name="max" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- NetTraffic_t::max -->
+     <element name="avg" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- NetTraffic_t::avg -->
+     <element name="min" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- NetTraffic_t::min -->
+     <element name="current" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- NetTraffic_t::current -->
+   </sequence>
+  </complexType>
+  <complexType name="NetworkData-t"><!-- NetworkData_t -->
+
+   <sequence>
+     <element name="graphListData" type="ns:GraphData-t" minOccurs="0" maxOccurs="unbounded"/><!-- NetworkData_t::graphListData -->
+     <element name="netListTraffic" type="ns:NetTraffic-t" minOccurs="0" maxOccurs="unbounded"/><!-- NetworkData_t::netListTraffic -->
+   </sequence>
+  </complexType>
+  <complexType name="StatusServices-t"><!-- StatusServices_t -->
+
+   <sequence>
+     <element name="name" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- StatusServices_t::name -->
+     <element name="isRunning" type="xsd:boolean" minOccurs="1" maxOccurs="1"/><!-- StatusServices_t::isRunning -->
+     <element name="pid" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- StatusServices_t::pid -->
+     <element name="memory" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- StatusServices_t::memory -->
+   </sequence>
+  </complexType>
+  <complexType name="ConnTrack-t"><!-- ConnTrack_t -->
+
+   <sequence>
+     <element name="protocol" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::protocol -->
+     <element name="sip" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::sip -->
+     <element name="dip" type="xsd:string" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::dip -->
+     <element name="sport" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::sport -->
+     <element name="dport" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::dport -->
+     <element name="downSpeed" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::downSpeed -->
+     <element name="upSpeed" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::upSpeed -->
+     <element name="connStatus" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::connStatus -->
+     <element name="expires" type="xsd:float" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::expires -->
+     <element name="slegend" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::slegend -->
+     <element name="dlegend" type="xsd:int" minOccurs="1" maxOccurs="1"/><!-- ConnTrack_t::dlegend -->
+   </sequence>
+  </complexType>
+ </schema>
+
+</types>
+
+<message name="putDataRequest">
+ <part name="nameList" type="xsd:string"/><!-- ns__putData::nameList -->
+ <part name="data" type="ns:ArrayOfData"/><!-- ns__putData::data -->
+</message>
+
+<message name="putDataResponse">
+ <part name="names" type="ns:ArrayOfstring"/><!-- ns__putData::names -->
+</message>
+
+<message name="getDataRequest">
+ <part name="names" type="ns:ArrayOfstring"/><!-- ns__getData::names -->
+</message>
+
+<message name="getDataResponse">
+ <part name="data" type="ns:ArrayOfData"/><!-- ns__getData::data -->
+</message>
+
+<message name="getImageRequest">
+ <part name="name" type="xsd:string"/><!-- ns__getImage::name -->
+</message>
+
+<message name="getImageResponse">
+ <part name="image" type="ns:Data"/><!-- ns__getImage::image -->
+</message>
+
+<message name="loginRequest">
+ <part name="username" type="xsd:string"/><!-- ns__login::username -->
+ <part name="passwd" type="xsd:string"/><!-- ns__login::passwd -->
+</message>
+
+<message name="loginResponse">
+ <part name="ret" type="xsd:boolean"/><!-- ns__login::ret -->
+</message>
+
+<message name="getRuntimeInfoRequest">
+</message>
+
+<message name="getRuntimeInfoResponse">
+ <part name="ret" type="ns:RuntimeInfo-t"/><!-- ns__getRuntimeInfo::ret -->
+</message>
+
+<message name="getSysHomeInterfaceRequest">
+</message>
+
+<message name="getSysHomeInterfaceResponse">
+ <part name="ret" type="ns:NetInterface-t"/><!-- ns__getSysHomeInterface::ret -->
+</message>
+
+<message name="SysBackupHandleRequest">
+ <part name="in" type="ns:SysBackupEvent"/><!-- ns__SysBackupHandle::in -->
+ <part name="path" type="xsd:string"/><!-- ns__SysBackupHandle::path -->
+</message>
+
+<message name="SysBackupHandleResponse">
+ <part name="ret" type="ns:SysBackupRet-t"/><!-- ns__SysBackupHandle::ret -->
+</message>
+
+<message name="getSysSysInfoRequest">
+</message>
+
+<message name="getSysSysInfoResponse">
+ <part name="ret" type="ns:SysInfo-t"/><!-- ns__getSysSysInfo::ret -->
+</message>
+
+<message name="SysShutdownHandle">
+ <part name="in" type="ns:SysShutdownEvent"/><!-- ns__SysShutdownHandle::in -->
+</message>
+
+<message name="noResponse">
+</message>
+
+<message name="getStatusSystemGraphRequest">
+ <part name="mode" type="ns:SysGraphMode-t"/><!-- ns__getStatusSystemGraph::mode -->
+</message>
+
+<message name="getStatusSystemGraphResponse">
+ <part name="ret" type="ns:SystemData-t"/><!-- ns__getStatusSystemGraph::ret -->
+</message>
+
+<message name="getStatusNetworkExternalRequest">
+ <part name="mode" type="ns:SysGraphMode-t"/><!-- ns__getStatusNetworkExternal::mode -->
+</message>
+
+<message name="getStatusNetworkExternalResponse">
+ <part name="ret" type="ns:NetworkData-t"/><!-- ns__getStatusNetworkExternal::ret -->
+</message>
+
+<message name="getStatusNetworkInternalRequest">
+ <part name="mode" type="ns:SysGraphMode-t"/><!-- ns__getStatusNetworkInternal::mode -->
+</message>
+
+<message name="getStatusNetworkInternalResponse">
+ <part name="ret" type="ns:NetworkData-t"/><!-- ns__getStatusNetworkInternal::ret -->
+</message>
+
+<message name="getStatusNetworkOtherRequest">
+ <part name="mode" type="ns:SysGraphMode-t"/><!-- ns__getStatusNetworkOther::mode -->
+</message>
+
+<message name="getStatusNetworkOtherResponse">
+ <part name="ret" type="ns:NetworkData-t"/><!-- ns__getStatusNetworkOther::ret -->
+</message>
+
+<message name="getStatusServicesRequest">
+</message>
+
+<message name="getStatusServicesResponse">
+ <part name="ret" type="StatusServicesList-t"/><!-- ns__getStatusServices::ret -->
+</message>
+
+<message name="getStatusConnectionRequest">
+</message>
+
+<message name="getStatusConnectionResponse">
+ <part name="ret" type="StatusConnList-t"/><!-- ns__getStatusConnection::ret -->
+</message>
+
+<portType name="ctSoapPortType">
+ <operation name="putData">
+  <documentation>Service definition of function ns__putData</documentation>
+  <input message="tns:putDataRequest"/>
+  <output message="tns:putDataResponse"/>
+ </operation>
+ <operation name="getData">
+  <documentation>Service definition of function ns__getData</documentation>
+  <input message="tns:getDataRequest"/>
+  <output message="tns:getDataResponse"/>
+ </operation>
+ <operation name="getImage">
+  <documentation>Service definition of function ns__getImage</documentation>
+  <input message="tns:getImageRequest"/>
+  <output message="tns:getImageResponse"/>
+ </operation>
+ <operation name="login">
+  <documentation>Service definition of function ns__login</documentation>
+  <input message="tns:loginRequest"/>
+  <output message="tns:loginResponse"/>
+ </operation>
+ <operation name="getRuntimeInfo">
+  <documentation>Service definition of function ns__getRuntimeInfo</documentation>
+  <input message="tns:getRuntimeInfoRequest"/>
+  <output message="tns:getRuntimeInfoResponse"/>
+ </operation>
+ <operation name="getSysHomeInterface">
+  <documentation>Service definition of function ns__getSysHomeInterface</documentation>
+  <input message="tns:getSysHomeInterfaceRequest"/>
+  <output message="tns:getSysHomeInterfaceResponse"/>
+ </operation>
+ <operation name="SysBackupHandle">
+  <documentation>Service definition of function ns__SysBackupHandle</documentation>
+  <input message="tns:SysBackupHandleRequest"/>
+  <output message="tns:SysBackupHandleResponse"/>
+ </operation>
+ <operation name="getSysSysInfo">
+  <documentation>Service definition of function ns__getSysSysInfo</documentation>
+  <input message="tns:getSysSysInfoRequest"/>
+  <output message="tns:getSysSysInfoResponse"/>
+ </operation>
+ <operation name="SysShutdownHandle">
+  <documentation>Service definition of function ns__SysShutdownHandle</documentation>
+  <input message="tns:SysShutdownHandle"/>
+  <output message="tns:noResponse"/>
+ </operation>
+ <operation name="getStatusSystemGraph">
+  <documentation>Service definition of function ns__getStatusSystemGraph</documentation>
+  <input message="tns:getStatusSystemGraphRequest"/>
+  <output message="tns:getStatusSystemGraphResponse"/>
+ </operation>
+ <operation name="getStatusNetworkExternal">
+  <documentation>Service definition of function ns__getStatusNetworkExternal</documentation>
+  <input message="tns:getStatusNetworkExternalRequest"/>
+  <output message="tns:getStatusNetworkExternalResponse"/>
+ </operation>
+ <operation name="getStatusNetworkInternal">
+  <documentation>Service definition of function ns__getStatusNetworkInternal</documentation>
+  <input message="tns:getStatusNetworkInternalRequest"/>
+  <output message="tns:getStatusNetworkInternalResponse"/>
+ </operation>
+ <operation name="getStatusNetworkOther">
+  <documentation>Service definition of function ns__getStatusNetworkOther</documentation>
+  <input message="tns:getStatusNetworkOtherRequest"/>
+  <output message="tns:getStatusNetworkOtherResponse"/>
+ </operation>
+ <operation name="getStatusServices">
+  <documentation>Service definition of function ns__getStatusServices</documentation>
+  <input message="tns:getStatusServicesRequest"/>
+  <output message="tns:getStatusServicesResponse"/>
+ </operation>
+ <operation name="getStatusConnection">
+  <documentation>Service definition of function ns__getStatusConnection</documentation>
+  <input message="tns:getStatusConnectionRequest"/>
+  <output message="tns:getStatusConnectionResponse"/>
+ </operation>
+</portType>
+
+<binding name="ctSoap" type="tns:ctSoapPortType">
+ <SOAP:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+ <operation name="putData">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getData">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getImage">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="login">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getRuntimeInfo">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getSysHomeInterface">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="SysBackupHandle">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getSysSysInfo">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="SysShutdownHandle">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getStatusSystemGraph">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getStatusNetworkExternal">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getStatusNetworkInternal">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getStatusNetworkOther">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getStatusServices">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="getStatusConnection">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:ctSoap" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+</binding>
+
+<service name="ctSoap">
+ <documentation>gSOAP 2.8.23 generated service definition</documentation>
+ <port name="ctSoap" binding="tns:ctSoap">
+  <SOAP:address location="https://localhost:8085"/>
+ </port>
+</service>
+
+</definitions>

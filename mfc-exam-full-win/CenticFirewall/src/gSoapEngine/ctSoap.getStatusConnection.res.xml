@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="urn:ctSoap">
+ <SOAP-ENV:Body  SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <ns:getStatusConnectionResponse>
+   <ret>
+    <protocol>0</protocol>
+    <sip></sip>
+    <dip></dip>
+    <sport>0</sport>
+    <dport>0</dport>
+    <downSpeed>0.0</downSpeed>
+    <upSpeed>0.0</upSpeed>
+    <connStatus>0</connStatus>
+    <expires>0.0</expires>
+    <slegend>0</slegend>
+    <dlegend>0</dlegend>
+   </ret>
+  </ns:getStatusConnectionResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
