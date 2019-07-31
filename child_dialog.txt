@@ -1,0 +1,23 @@
+
+
+---- show child dialog from another dialog ---
+
+void MyDialog1::OnBnClickedBtnNewdlg()
+{
+	if (pDlg == NULL) {
+		pDlg = new MyDialog2();
+		// create the child dialog, set the desktop as its parent
+		pDlg->Create(IDD_DIALOG2, this->GetDesktopWindow());
+	}
+
+	//pDlg->SetWindowPos(NULL, 100, 100, 200, 100, SWP_SHOWWINDOW);
+	pDlg->ShowWindow(SW_SHOW);	
+}
+
+
+void MyDialog1::OnBnClickedBtnUpdatedlg()
+{
+	if (pDlg != NULL) {
+		pDlg->setpara(2);
+	}
+}
