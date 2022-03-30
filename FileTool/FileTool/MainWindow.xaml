@@ -1,0 +1,67 @@
+﻿<Window x:Class="FileTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileTool"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+                
+            </RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <TabControl  Grid.Row="0" Margin="5">
+            <TabItem Header="Extractor">
+                <Grid Margin="0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="Input Folder" />
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="0,5" Name="tbInputFolder" />
+
+                    <Label Grid.Row="1" Grid.Column="0" Content="File Name Pattern" />
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="0,5" Name="tbAFilePattern"/>
+
+                    <Label Grid.Row="2" Grid.Column="0" Content="Output Folder" />
+                    <TextBox Grid.Row="2" Grid.Column="1" Margin="0,5" Name="tbOutputFolder"/>
+
+                    <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="0,5,0,0">
+                        <CheckBox  x:Name="cbOutput" Content="Export To Output Folder" />
+                        <CheckBox  x:Name="cbOverWrite" Content="Overwrite" Margin="10,0,0,0" IsChecked="True"/>
+                        <CheckBox  x:Name="cbFolder" Content="Extract to file name folder" Margin="10,0,0,0" />
+                    </StackPanel>
+
+
+                    <Button Grid.Row="4" Grid.Column="1" Content="Start" Name="btnStartExtract" Margin="0,5" Click="btnStartExtract_Click" />
+
+                </Grid>
+                
+                
+                
+            </TabItem>
+            <TabItem Header="File">
+
+            </TabItem>
+            <TabItem Header="Folder">
+
+            </TabItem>
+        </TabControl>
+
+        <Label Grid.Row="1" Content="Ready" Name="lbStatus" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" />
+
+    </Grid>
+</Window>
