@@ -5,63 +5,95 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FileTool"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="File Tool" Height="450" Width="800" Closing="Window_Closing" Loaded="Window_Loaded" Icon="Glossy-Developer-icon.png">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition>
-                
-            </RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50" />
+            <RowDefinition />
         </Grid.RowDefinitions>
-        
-        <TabControl  Grid.Row="0" Margin="5">
-            <TabItem Header="Extractor">
-                <Grid Margin="0,5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="150"/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
+
+        <GroupBox Grid.Row="0" Header="Input / Output" Margin="5">
+            <Grid Margin="0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="130"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Content="Input Folder" />
+                <TextBox  Grid.Row="0" Grid.Column="1" Margin="0,5"  Name="tbInputFolder" VerticalContentAlignment="Center"/>
+                <CheckBox  Grid.Row="0" Grid.Column="2" x:Name="cbSubFolder" Content="In all sub-folder" Margin="5,0,0,0" IsChecked="True" VerticalAlignment="Center"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Name="lbFileNamePattern" Content="File Name Pattern" />
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="0,5" Name="tbFilePattern" VerticalContentAlignment="Center"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Name="lbFileExtension" Content="File Extension" />
+                <TextBox Grid.Row="2" Grid.Column="1" Margin="0,5" Name="tbFileExtension" VerticalContentAlignment="Center"/>
+
+                <Label Grid.Row="3" Grid.Column="0" Content="Output Folder" />
+                <TextBox Grid.Row="3" Grid.Column="1" Margin="0,5" Name="tbOutputFolder" VerticalContentAlignment="Center" IsEnabled="True"/>
+                <CheckBox  Grid.Row="3" Grid.Column="2" x:Name="cbEnableOutputFolder" Content="Enable Output" Margin="5,0,0,0" IsChecked="True" VerticalAlignment="Center" Checked="CbEnableOutputFolder_Checked" Unchecked="CbEnableOutputFolder_Checked"/>
+            </Grid>
+
+        </GroupBox>
+
+        <TabControl x:Name="CtrltabFunc" Grid.Row="1" Margin="5" BorderThickness="1" SelectionChanged="CtrltabFunc_SelectionChanged">
+            <TabItem Header="Extractor" Name="funcTabExtractor">
+                <Grid Margin="10,5,0,5">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="35"/>
                         <RowDefinition />
                     </Grid.RowDefinitions>
 
-                    <Label Grid.Row="0" Grid.Column="0" Content="Input Folder" />
-                    <TextBox Grid.Row="0" Grid.Column="1" Margin="0,5" Name="tbInputFolder" />
-
-                    <Label Grid.Row="1" Grid.Column="0" Content="File Name Pattern" />
-                    <TextBox Grid.Row="1" Grid.Column="1" Margin="0,5" Name="tbAFilePattern"/>
-
-                    <Label Grid.Row="2" Grid.Column="0" Content="Output Folder" />
-                    <TextBox Grid.Row="2" Grid.Column="1" Margin="0,5" Name="tbOutputFolder"/>
-
-                    <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="0,5,0,0">
-                        <CheckBox  x:Name="cbOutput" Content="Export To Output Folder" />
+                    <StackPanel Grid.Row="0"  Orientation="Horizontal" Margin="0,5,0,0">
                         <CheckBox  x:Name="cbOverWrite" Content="Overwrite" Margin="10,0,0,0" IsChecked="True"/>
-                        <CheckBox  x:Name="cbFolder" Content="Extract to file name folder" Margin="10,0,0,0" />
+                        <CheckBox  x:Name="cbExtractToFilenameFolder" Content="Extract to file name folder" Margin="10,0,0,0" />
+                        <CheckBox  x:Name="cbDeleteFileAfterDone" Content="Delete after extract" Margin="10,0,0,0" />
                     </StackPanel>
 
-
-                    <Button Grid.Row="4" Grid.Column="1" Content="Start" Name="btnStartExtract" Margin="0,5" Click="btnStartExtract_Click" />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5,0,0">
+                        <Button Content="Extract" Name="btnStartExtract" Margin="0,5" Click="BtnStartExtract_Click" Width="50"/>
+                    </StackPanel>
 
                 </Grid>
-                
-                
-                
             </TabItem>
-            <TabItem Header="File">
+            <TabItem Header="File" Name="funcTabFile">
+                <Grid Margin="10,5,0,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
 
-            </TabItem>
-            <TabItem Header="Folder">
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,5,0,0">
+                        <CheckBox  x:Name="cbOverWriteCopy" Content="Copy Overwrite" Margin="10,0,0,0" IsChecked="True"/>
+                        <RadioButton  x:Name="rbTargetAll" Content="All file" Margin="10,0,0,0"  />
+                        <RadioButton  x:Name="rbTargetSpecialFileExtensionOnly" Content="Special file extension only" IsChecked="True" Margin="10,0,0,0"/>
+                        <RadioButton  x:Name="rbTargetOtherThanSpecial" Content="Other than special file extension"  Margin="10,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5,0,0">
+                        <Button Content="Copy" Name="btnCopyFile" Margin="0,5" Click="BtnFile_Click" Width="50"/>
+                        <Button Content="Move" Name="btnMoveFile" Margin="10,5,0,5" Click="BtnFile_Click" Width="50"/>
+                        <Button Content="Delete" Name="btnDeleteFile" Margin="10,5,0,5" Click="BtnFile_Click" Width="50"/>
+                    </StackPanel>
 
+                </Grid>
             </TabItem>
+            <!--<TabItem Header="Folder" Name="funcTabFolder">
+
+            </TabItem>-->
         </TabControl>
-
-        <Label Grid.Row="1" Content="Ready" Name="lbStatus" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" />
-
+        <Label Grid.Row="2" Content="Ready" Name="lbStatus" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" />
     </Grid>
 </Window>

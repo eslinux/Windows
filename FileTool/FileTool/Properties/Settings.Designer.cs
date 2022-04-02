@@ -8,21 +8,174 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace FileTool.Properties
-{
+namespace FileTool.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string common_input_folder {
+            get {
+                return ((string)(this["common_input_folder"]));
+            }
+            set {
+                this["common_input_folder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string common_file_extension {
+            get {
+                return ((string)(this["common_file_extension"]));
+            }
+            set {
+                this["common_file_extension"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string common_output_folder {
+            get {
+                return ((string)(this["common_output_folder"]));
+            }
+            set {
+                this["common_output_folder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool common_enable_output_folder {
+            get {
+                return ((bool)(this["common_enable_output_folder"]));
+            }
+            set {
+                this["common_enable_output_folder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool extractor_overwrite {
+            get {
+                return ((bool)(this["extractor_overwrite"]));
+            }
+            set {
+                this["extractor_overwrite"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool extractor_extract_to_filename_folder {
+            get {
+                return ((bool)(this["extractor_extract_to_filename_folder"]));
+            }
+            set {
+                this["extractor_extract_to_filename_folder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool extractor_delete_after_extract {
+            get {
+                return ((bool)(this["extractor_delete_after_extract"]));
+            }
+            set {
+                this["extractor_delete_after_extract"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool file_all_file {
+            get {
+                return ((bool)(this["file_all_file"]));
+            }
+            set {
+                this["file_all_file"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool file_special_file_extension_only {
+            get {
+                return ((bool)(this["file_special_file_extension_only"]));
+            }
+            set {
+                this["file_special_file_extension_only"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool file_other_than_special_ext_file {
+            get {
+                return ((bool)(this["file_other_than_special_ext_file"]));
+            }
+            set {
+                this["file_other_than_special_ext_file"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string common_file_name_pattern {
+            get {
+                return ((string)(this["common_file_name_pattern"]));
+            }
+            set {
+                this["common_file_name_pattern"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool common_include_subfolder {
+            get {
+                return ((bool)(this["common_include_subfolder"]));
+            }
+            set {
+                this["common_include_subfolder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool file_overwrite {
+            get {
+                return ((bool)(this["file_overwrite"]));
+            }
+            set {
+                this["file_overwrite"] = value;
             }
         }
     }
